@@ -23,7 +23,7 @@ compileJava {
     // this is a hack to make both annotation processors work
     // uncomment it to build the project
 //    options.compilerArgs << '-processor' << [
-//            // reverse this list and it will work o_O
+//            // reverse this list and it will stop working o_O
 //            'org.apache.logging.log4j.core.config.plugins.processor.PluginProcessor',
 //            'org.openjdk.jmh.generators.BenchmarkProcessor'
 //    ].join(',')

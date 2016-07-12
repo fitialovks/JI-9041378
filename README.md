@@ -9,7 +9,7 @@ This projects has two annotation processors in the classpath:
 2. org.apache.logging.log4j.core.config.plugins.processor.PluginProcessor
 
 Both are registered via `META-INF/services/javax.annotation.processing.Processor`
-in their jars. Only one of them is applied without explicit `-processor` option for copmiler.
+in their jars. Only one of them is applied without explicit `-processor` option for compiler.
 
 Instructions:
 
